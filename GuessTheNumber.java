@@ -20,7 +20,7 @@ public class GuessTheNumber {
             int guess;
 
             do {
-                System.out.print("Enter your guess (1-100): ");
+                System.out.print("Enter your guess (1-100):\n ");
                 guess = scanner.nextInt();
                 attempts++;
 
